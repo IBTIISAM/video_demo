@@ -1,0 +1,10 @@
+model_endpoints:
+  ALLaM-13b-v2.19.0.20:
+    url: "http://localhost:8001/v1/chat/completions"
+    type: "text"
+  ALLaM-IU-13b-v26.0.10-ft-336.2.v1:
+    url: "http://localhost:8000/v1/chat/completions"
+    type: "image"
+
+upload_url: "http://localhost:9898/upload"
+image_base_url: "http://localhost:9898"
